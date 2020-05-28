@@ -1,0 +1,48 @@
+html{
+    font-size: 1rem;
+}
+@media screen and (max-width: 900px){
+    html{
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 800px){
+    html{
+        font-size: 0.8rem;
+    }
+}
+
+
+body{
+    background-image: url("images/bg.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+p{
+    color:  #ffffff;
+    display: inline-block;
+    padding: 3%;
+}
+
+.position{
+    position:absolute;
+    top: 550px;
+}
+
+
+.warning{
+    color: #ff3333;
+    font-size: 1.2rem;
+}
+
+.hidden{
+    display: none;
+}
+.final{
+    font-size: 2rem;
+    color: #ff3333;
+}
